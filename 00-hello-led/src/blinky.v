@@ -10,7 +10,7 @@ module blinky (
         .clk(clk),
         .rst_n(rst),
         .clkout(clk_1h)
-    );                             
+    );
 
     always @(posedge clk_1h or negedge rst)
     begin
