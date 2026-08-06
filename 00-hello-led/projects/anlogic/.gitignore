@@ -3,3 +3,4 @@
 !*.adc
 !README.md
 !.gitignore
+!Makefile
