@@ -31,5 +31,5 @@ index 0:
 
 Upload the firmware to FLASH:
 ```
-openFPGALoader -c ft232 -f blinky_impl1.jed
+openFPGALoader -c ft232 -f impl1/blinky_impl1.jed
 ```
