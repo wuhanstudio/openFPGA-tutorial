@@ -4,7 +4,7 @@
 openFPGALoader -f -b tangnano20k impl/pnr/blinky.fs
 ```
 
-# nextpnr-gowin
+# nextpnr-himbaechel
 
 
 ```
@@ -19,4 +19,12 @@ $ source .venv/bin/activate
 $ cmake .. -DARCH="himbaechel" -DHIMBAECHEL_UARCH="gowin" -DPython3_EXECUTABLE=$(which python)
 $ make -j$(nproc)
 $ sudo make install
+```
+
+# Makefile
+
+```
+$ uv sync
+$ source .venv/bin/activate
+$ make flash
 ```

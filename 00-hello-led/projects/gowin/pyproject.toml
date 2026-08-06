@@ -1,0 +1,11 @@
+[project]
+name = "gowin"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apycula>=0.32",
+    "cattrs>=26.1.0",
+    "msgpack>=1.2.1",
+]
