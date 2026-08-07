@@ -1,0 +1,16 @@
+[*]
+[timestart] 0
+[timestart] 0
+[treeopen] blinky_tb.
+[treeopen] blinky_tb.dut.
+[ss] 0
+[signals]
+blinky_tb.clk
+blinky_tb.rst
+blinky_tb.led
+blinky_tb.dut.cnt
+blinky_tb.dut.clk_1h
+[tree]
+[options]
+[files]
+./tb/blinky_tb.vcd

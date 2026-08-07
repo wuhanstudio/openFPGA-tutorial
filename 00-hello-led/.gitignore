@@ -1,3 +1,9 @@
 *.asc
 *.bin
 *.json
+*.vcd
+*.out
+.venv/
+__pycache__/
+.pytest_cache/
+sim_build/
