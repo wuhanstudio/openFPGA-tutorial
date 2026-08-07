@@ -2,8 +2,9 @@
 
 > Verilog examples on Lattice (ICE40, MachXO2), Anlogic and Gowin FPGA.
 
-![](boards.png)
+It is recommended to use [oss-cad-suite](https://github.com/YosysHQ/oss-cad-suite-build), provided by the YosysHQ, which includes pre-compiled binaries for open-source FPGA tools, including `yosys`, `nextpnr`, `openFPGALoader`, `icesprog`, etc.
 
+![](boards.png)
 
 ## ICESugar (Lattice ICE40)
 
